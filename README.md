@@ -45,3 +45,7 @@ npm i unplugin-vue-components -D
 
 
 安装web3
+npm i web3 
+
+安装eth和垫片
+npm i ethereumjs-tx@1.3.7 node-polyfill-webpack-plugin
