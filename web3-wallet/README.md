@@ -1,24 +1,60 @@
-# web3-wallet
+# web3
+开发一个简单的web3项目
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+准备工作：
 
-### Compiles and minifies for production
-```
-npm run build
-```
+安装nodeJs
 
-### Lints and fixes files
-```
-npm run lint
-```
+`
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+    node --version
+    v14.19.0
+
+    npm version
+    {
+    npm: '6.14.16',
+    ares: '1.18.1',
+    brotli: '1.0.9',
+    cldr: '40.0',
+    icu: '70.1',
+    llhttp: '2.1.4',
+    modules: '83',
+    napi: '8',
+    nghttp2: '1.42.0',       
+    node: '14.19.0',
+    openssl: '1.1.1m',       
+    tz: '2021a3',
+    unicode: '14.0',
+    uv: '1.42.0',
+    v8: '8.4.371.23-node.85',
+    zlib: '1.2.11'
+    }
+`
+ 安装vue
+vue -V     
+@vue/cli 5.0.8
+
+vue create web3-wallet
+
+
+使用vant组件库
+npm install vant
+npm i unplugin-vue-components -D
+
+
+
+安装web3
+npm i web3 
+
+安装eth和垫片
+npm i ethereumjs-tx@1.3.7 node-polyfill-webpack-plugin
+
+
+Account操作所需的包
+npm i bip39 ethereumjs-wallet ethereumjs-util
+
+bip39:生成助记词
+ethereumjs-wallet：生成公私钥
+ethereumjs-util：工具库
+
