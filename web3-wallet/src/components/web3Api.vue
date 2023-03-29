@@ -30,7 +30,7 @@ const send=async()=>{
     // 获取预计转账交易费gas
     const gasPrice =await web3.eth.getGasPrice()
     // 转账金额，以wei为单位
-    const value=web3.utils.toWei("0.0001")
+    const value=web3.utils.toWei("0.04")
 
     const rawTx={
         from:address.value,
